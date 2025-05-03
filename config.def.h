@@ -112,25 +112,28 @@ char *termname = "xterm-256color";
  */
 unsigned int tabspaces = 4;
 
+/* bg opacity */
+float alpha = 0.8;
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[1] = "#cc241d", /* red     */
-	[2] = "#98971a", /* green   */
-	[3] = "#d79921", /* yellow  */
-	[4] = "#458588", /* blue    */
-	[5] = "#b16286", /* magenta */
-	[6] = "#689d6a", /* cyan    */
-	[7] = "#a89984", /* white   */
+	[0]  = "#000000",
+	[1]  = "#aa0000",
+	[2]  = "#00aa00",
+	[3]  = "#6c3205",
+	[4]  = "#4444aa",
+	[5]  = "#aa00aa",
+	[6]  = "#0066aa",
+	[7]  = "#666666",
 
-	[8]  = "#928374", /* black   */
-	[9]  = "#fb4934", /* red     */
-	[10] = "#b8bb26", /* green   */
-	[11] = "#fabd2f", /* yellow  */
-	[12] = "#83a598", /* blue    */
-	[13] = "#d3869b", /* magenta */
-	[14] = "#8ec07c", /* cyan    */
-	[15] = "#ebdbb2", /* white   */
+	[8]  = "#303030",
+	[9]  = "#dd0033",
+	[10] = "#48bb48",
+	[11] = "#bbbb55",
+	[12] = "#5555ff",
+	[13] = "#bc33cc",
+	[14] = "#0088ff",
+	[15] = "#888888",
 };
 
 /*
